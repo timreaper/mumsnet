@@ -1,0 +1,21 @@
+<div class="footer">
+	<div class="footer__links">
+		{{#each footer.links}}
+			{{#if @last}}
+				<a href="{{ href }}" title="{{ name }}">{{ name }}</a>
+			{{else}}
+				<a href="{{ href }}" title="{{ name }}">{{ name }}</a> |
+			{{/if}}
+		{{/each}}
+	</div>
+
+	<div class="footer__social">
+		<p>Follow us on: </p>
+		{{#each footer.social}}
+			<a href="{{ href }}" title="{{ name }}">
+				<img src="{{ image }}" alt="{{ name }}" title="{{ name }}">
+			</a>
+		{{/each}}
+	</div>
+	<hr>
+</div>

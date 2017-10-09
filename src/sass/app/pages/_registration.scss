@@ -1,0 +1,74 @@
+@import '../../libraries/bootstrap/functions';
+@import '../../libraries/bootstrap/variables';
+@import '../../libraries/bootstrap/mixins';
+
+.registration {
+  background-color: #7c7d55;
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 50px;
+  padding-bottom: 250px;
+  text-align: center;
+
+  .container-fluid {
+	max-width: 960px;
+  }
+
+  &__heading {
+	color: #ffffff;
+	font-size: 62px;
+	font-weight: bold;
+	line-height: 0.65;
+
+	text-align: center;
+  }
+
+  &__subheading {
+	color: #ffffff;
+	font-size: 28px;
+	font-weight: bold;
+	line-height: 1.43;
+	margin-bottom: 40px;
+	margin-top: 20px;
+  }
+
+  &__submit {
+	background-color: #9c27b0;
+	border: 0 none;
+	border-radius: 4px;
+	box-shadow: 0 4px 0 0 #7f208f;
+	color: #f2f2f2;
+	cursor: pointer;
+	font-size: 24px;
+	font-weight: bold;
+	height: 62px;
+	margin: 30px auto 0;
+	max-width: 450px;
+	width: 100%;
+  }
+
+  &__terms {
+	background-color: #ffffff;
+	border-radius: 2px;
+	margin: 10px auto 0;
+	max-width: 450px;
+	opacity: 0.95;
+	padding: 20px;
+
+	a {
+	  font-weight: bold;
+	}
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .registration {
+	&__heading {
+	  font-size: 40px;
+	  line-height: 1;
+	}
+
+	&__subheading {
+	  font-size: 18px;
+	}
+  }
+}

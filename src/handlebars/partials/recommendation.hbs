@@ -1,0 +1,27 @@
+<div class="recommendation">
+	<h4 class="recommendation__heading">
+		{{ heading }}
+	</h4>
+
+	{{#each groups}}
+		<p class="recommendation__group">{{ name }}</p>
+		{{#each recommendation}}
+			<div class="row">
+				<div class="col-1">
+					<input type="checkbox" name="{{ slugify name }}">
+				</div>
+				<div class="col-10 col-lg-11">
+					<label for="{{ slugify name }}">
+						<span class="recommendation__name">{{ name }} - </span>
+						<span class="recommendation__description">{{ description }}</span>
+					</label>
+				</div>
+			</div>
+		{{/each}}
+		{{#if @last}}
+		{{else}}
+			<hr>
+		{{/if}}
+	{{/each}}
+
+</div>

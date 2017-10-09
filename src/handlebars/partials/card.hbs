@@ -1,0 +1,54 @@
+<div class="card" id="{{ slugify heading }}">
+	<div class="row">
+		<div class="col-1">
+			<input type="checkbox">
+		</div>
+		<div class="col-10 col-lg-11">
+			<h4 class="card__heading">
+				{{ heading }}
+			</h4>
+			<p class="card__text">
+				{{ text }}
+			</p>
+			{{#if form}}
+				<p class="card__form__label">{{ form.label }}</p>
+				<div class="row">
+					{{#each form.inputs}}
+						<div class="card__form__input col-12 col-sm-{{column-width}} {{type}}">
+							{{#ifCond type "dropdown"}}
+								<select>
+									<option value="" disabled selected>{{ placeholder }}</option>
+									{{#each choices}}
+										<option value="{{ slugify this }}">{{ this }}</option>
+									{{/each}}
+								</select>
+							{{/ifCond}}
+
+							{{#ifCond type 'datepicker'}}
+								<input name="{{ name }}" type="text" class="datepicker" placeholder="{{ placeholder }}">
+								<script type="text/javascript">
+									$('document').ready(function () {
+										$('input[name={{ name }}]').datepicker();
+									})
+								</script>
+							{{/ifCond}}
+
+							{{#ifCond type 'radio'}}
+								{{#each choices}}
+									<input type="radio" name="{{ ../name }}" value="{{ slugify this }}">
+									<label for="{{ ../name }}">{{ this }}</label>
+								{{/each}}
+							{{/ifCond}}
+
+						</div>
+					{{/each}}
+					{{#if form.multiple}}
+						<div class="col-12">
+							<a class="card__form__duplicate-field" href="javascript:void(0)">+ Add another child</a>
+						</div>
+					{{/if}}
+				</div>
+			{{/if}}
+		</div>
+	</div>
+</div>

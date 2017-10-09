@@ -1,0 +1,47 @@
+{
+  "dist": {
+	"css": {
+	  "rootpath": "/css"
+	},
+	"images": {
+	  "rootpath": "/images"
+	},
+	"js": {
+	  "rootpath": "/js"
+	},
+	"rootpath": "./dist"
+  },
+  "src": {
+	"data": {
+	  "rootpath": "/data"
+	},
+	"handlebars": {
+	  "helpers": "/handlebars_helpers.js",
+	  "pages": {
+		"rootpath": "/pages"
+	  },
+	  "partials": {
+		"rootpath": "/partials"
+	  },
+	  "rootpath": "/handlebars"
+	},
+	"images": {
+	  "rootpath": "/images"
+	},
+	"js": {
+	  "rootpath": "/js"
+	},
+	"rootpath": "./src",
+	"sass": {
+	  "rootpath": "/sass",
+	  "app": {
+		"file": "/main_app.scss",
+		"rootpath": "/app"
+	  },
+	  "libraries": {
+		"file": "/main_libraries.scss",
+		"rootpath": "/libraries"
+	  }
+	}
+  }
+}

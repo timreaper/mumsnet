@@ -1,0 +1,11 @@
+select {
+  option[disabled] {
+	display: none;
+  }
+}
+
+input {
+  &[type="checkbox"] {
+	margin-top: 4px;
+  }
+}

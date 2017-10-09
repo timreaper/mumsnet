@@ -1,0 +1,237 @@
+{
+  "heading": "What interests you?",
+  "subheading": "Choose what emails you'd like us to send you",
+  "cards": {
+	"0": {
+	  "heading": "Mumsnet daily email",
+	  "text": "What’s happening on Mumsnet and the day’s hottest topics"
+	},
+	"1": {
+	  "heading": "Mumsnet Local email",
+	  "text": "Brilliant things to do, see and buy near you.",
+	  "form": {
+		"label": "Enter your city, town, village or borough to find your Mumsnet local site",
+		"inputs": {
+		  "0": {
+			"column-width": 6,
+			"type": "dropdown",
+			"name": "country",
+			"placeholder": "Country",
+			"choices": [
+			  "UK",
+			  "Other"
+			]
+		  },
+		  "1": {
+			"column-width": 6,
+			"type": "dropdown",
+			"name": "city",
+			"placeholder": "City",
+			"choices": [
+			  "London",
+			  "Other"
+			]
+		  }
+		}
+	  }
+	},
+	"2": {
+	  "heading": "Your pregnancy",
+	  "text": "Weekly emails about what's happening to your body and your baby right now.",
+	  "form": {
+		"label": "Enter your due date to receive personalised weekly emails",
+		"inputs": {
+		  "0": {
+			"column-width": 6,
+			"type": "datepicker",
+			"name": "due_date",
+			"placeholder": "DD/MM/YY"
+		  }
+		}
+	  }
+	},
+	"3": {
+	  "heading": "Child development",
+	  "text": "Chart your children's progress from birth to five years.",
+	  "form": {
+		"label": "Enter your due date to receive personalised weekly emails",
+		"multiple": true,
+		"inputs": {
+		  "0": {
+			"column-width": 12,
+			"type": "radio",
+			"name": "gender",
+			"choices": [
+			  "Boy",
+			  "Girl"
+			]
+		  },
+		  "1": {
+			"column-width": 6,
+			"type": "dropdown",
+			"name": "month",
+			"placeholder": "Month",
+			"choices": [
+			  "January",
+			  "February",
+			  "March",
+			  "April",
+			  "May",
+			  "June",
+			  "July",
+			  "August",
+			  "September",
+			  "October",
+			  "November",
+			  "December"
+			]
+		  },
+		  "2": {
+			"column-width": 6,
+			"type": "dropdown",
+			"name": "Year",
+			"placeholder": "Year",
+			"choices": [
+			  "2016",
+			  "2017"
+			]
+		  }
+		}
+	  }
+	}
+  },
+  "recommendations": {
+	"heading": "You might also like",
+	"groups": {
+	  "0": {
+		"name": "Mumsnet highlights",
+		"recommendation": {
+		  "0": {
+			"name": "Talk round-up [weekly]",
+			"description": "the week’s funniest threads"
+		  },
+		  "1": {
+			"name": "Bloggers network",
+			"description": "brilliant writing from our parent bloggers"
+		  }
+		}
+	  },
+	  "1": {
+		"name": "Offers and jobs",
+		"recommendation": {
+		  "0": {
+			"name": "Moneysaver [weekly]",
+			"description": "weekly deals, flash sales, and not-to-be-missed offers"
+		  },
+		  "1": {
+			"name": "Mumsnet jobs [weekly]",
+			"description": "the latest family-friendly and flexible jobs"
+		  }
+		}
+	  },
+	  "2": {
+		"name": "Life and style",
+		"recommendation": {
+		  "0": {
+			"name": "Swears by [weekly]",
+			"description": "the products that Mumsnet users really rate"
+		  },
+		  "1": {
+			"name": "Books [weekly]",
+			"description": "weekly giveaways, plus webchats, children's books, and Book of the Month"
+		  },
+		  "2": {
+			"name": "Food [monthly]",
+			"description": "monthly family food inspiration, plus tips and hacks"
+		  },
+		  "3": {
+			"name": "Film & TV [fortnightly]",
+			"description": "get the low down on what’s really worth watching in cinemas and the telly, plus the chance to win fantastic film freebies"
+		  }
+		}
+	  }
+	}
+  },
+  "submit": "All done >>",
+  "footer": {
+	"links": {
+	  "0": {
+		"href": "",
+		"name": "Gransnet"
+	  },
+	  "1": {
+		"href": "",
+		"name": "Jobs"
+	  },
+	  "2": {
+		"href": "",
+		"name": "Giftwink.com"
+	  },
+	  "3": {
+		"href": "",
+		"name": "Help"
+	  },
+	  "4": {
+		"href": "",
+		"name": "Contact Us"
+	  },
+	  "5": {
+		"href": "",
+		"name": "Local"
+	  },
+	  "6": {
+		"href": "",
+		"name": "Advertising"
+	  },
+	  "7": {
+		"href": "",
+		"name": "Press"
+	  },
+	  "8": {
+		"href": "",
+		"name": "About Us"
+	  },
+	  "9": {
+		"href": "",
+		"name": "Terms of use"
+	  }
+	},
+	"social": {
+	  "0": {
+		"href": "",
+		"name": "Facebook",
+		"image": ""
+	  },
+	  "1": {
+		"href": "",
+		"name": "Twitter",
+		"image": ""
+	  },
+	  "2": {
+		"href": "",
+		"name": "Google+",
+		"image": ""
+	  },
+	  "3": {
+		"href": "",
+		"name": "LinkedIn",
+		"image": ""
+	  },
+	  "4": {
+		"href": "",
+		"name": "Pinterest",
+		"image": ""
+	  },
+	  "5": {
+		"href": "",
+		"name": "YouTube",
+		"image": ""
+	  },
+	  "6": {
+		"href": "",
+		"name": "Instagram",
+		"image": ""
+	  }
+	}
+  }
+}

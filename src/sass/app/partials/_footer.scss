@@ -1,0 +1,29 @@
+.footer {
+  background-color: #1874cf;
+  color: #ffffff;
+  padding: 40px;
+
+  hr {
+	background-color: #ffffff;
+  }
+
+  p {
+	font-size: 18px;
+	margin: 0;
+  }
+
+  &__links {
+	font-size: 14px;
+	line-height: 2.14;
+	text-align: right;
+	a {
+	  color: #ffffff;
+	}
+  }
+
+  &__social {
+	a {
+	  color: #ffffff;
+	}
+  }
+}
